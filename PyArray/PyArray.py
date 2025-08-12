@@ -23,7 +23,4 @@ class PyArray:
     
     def __getitem__(self, index):
         return self._items[index]
-arr = PyArray(datatype = int, length = 17)
 
-for i in range(17):
-    arr.append(i)
